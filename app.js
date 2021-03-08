@@ -1,4 +1,6 @@
 // 
+// TABLA DE  MULTIPLICAR EN ARCHIVO TEXTO Y CONSOLA
+// 
 // 38 - Copia final de la Aplicación:   38.multiplicar-hasta
 // 
 const { fn31_CreaTabla_Mult_AsyncListTo } = require("./helpers/31.createTable");
