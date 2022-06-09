@@ -1,11 +1,9 @@
 //
-// TABLA DE  MULTIPLICAR EN ARCHIVO TEXTO Y CONSOLA
+// #   36  CONFIGURACION DE YARGS INDEPENDIENTE
 //
-// 38 - Copia final de la Aplicación:   38.multiplicar-hasta
+const { fn31E_CreaTabla_Mult_AsyncListTo } = require('../helpers/31.createTable');
 //
-const { fn31_CreaTabla_Mult_AsyncListTo } = require('./helpers/31.createTable');
-//
-const mod_Argv = require('./config/yargs');
+const mod_Argv = require('../config/yargs');
 //
 const colors = require('colors');
 //

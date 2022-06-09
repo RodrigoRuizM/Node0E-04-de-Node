@@ -8,9 +8,9 @@ const mod_Argv = require('yargs')
         describe: 'Base de Tabla de Multiplicar'
     })
     .check((argv, options) => {
-        console.log('yargs:', argv)
+        console.log('yargs:', argv);
         if (isNaN(argv.b)) {
-            throw 'La base requiere ser numérica, ej: --base=1'
+            throw 'La base requiere ser numérica, ej: --base=1';
         }
         return true;
     })
@@ -27,9 +27,9 @@ const mod_Argv = require('yargs')
         describe: 'Multiplicador Final, valores: 1 a n'
     })
     .check((argv, options) => {
-        console.log('yargs:', argv)
+        console.log('yargs:', argv);
         if (isNaN(argv.h)) {
-            throw 'Multiplicador requiere ser numérico, ej: --hasta=10'
+            throw 'Multiplicador requiere ser numérico, ej: --hasta=10';
         }
         return true;
     })

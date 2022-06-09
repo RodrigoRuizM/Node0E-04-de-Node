@@ -1,6 +1,7 @@
 
 node_modules/
 
-A.Curso/*.*
 
-salidas/*.txt
+.Cursos/salidas/*.txt
+
+.Cursos/*.zip
