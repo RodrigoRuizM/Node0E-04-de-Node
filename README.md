@@ -30,3 +30,22 @@
     -l, --list     [Opcional] Listar tabla creada       [boolean] [default: false]
     -h, --hasta    Multiplicador Final, valores: 1 a n      [number] [default: 10]
 ```
+
+Proyecto en GitHub:
+https://github.com/RodrigoRuizM/Node0E-04Bases.git
+
+…or create a new repository on the command line
+
+echo "# Node0E-04Bases" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RodrigoRuizM/Node0E-04Bases.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/RodrigoRuizM/Node0E-04Bases.git
+git branch -M main
+git push -u origin main

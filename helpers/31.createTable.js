@@ -1,5 +1,7 @@
+//
 // CADA UNA DE ESTAS FUNCIONES SE EJECUTAN PARA MOSTRAR
 // DISTINTAS FORMAS DE HACER UNA TAREA
+//
 const { rejects } = require('assert');
 const fs = require('fs');
 const { resolve } = require('path');
